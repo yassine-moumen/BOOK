@@ -1,0 +1,126 @@
+/* Fira Sans */
+@import url("(https://fonts.google.com/specimen/Rubik)");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/** HEADER */
+
+/** NAVIGATION BAR */
+#logo {
+    float: left;
+    padding: 25px;
+    margin: 15px;
+}
+
+nav {
+    color: white;
+    // position: fixed;
+    width: 100%;
+    display: flex;
+
+    ul {
+        text-align: center;
+        list-style-type: none;
+        padding: 25px;
+        margin: 15px;
+        display: none;
+
+        li {
+            display: inline;
+            font-family: "Fira Sans", sans-serif;
+            font-size: 17px;
+
+            a {
+                color: black;
+                text-decoration: none;
+                padding: 14px;
+
+                &:hover {
+                    background-color: red;
+                }
+            }
+        }
+    }
+}
+
+.background {
+    background-color: hsl(231, 69%, 60%);
+    width: 80%;
+    height: 200px;
+    z-index: -5;
+    position: absolute;
+    top: 38%;
+    right: 0%;
+    border-radius: 0 0 0 20%;
+
+}
+
+.container {
+    .imghero {
+        margin-top: 2rem;
+        width: 100%;
+
+        img {
+            width: 95%;
+
+        }
+
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Rubik';
+        font-size: 22px;
+
+    }
+
+    p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+        justify-content: center;
+        color: hsl(229, 8%, 60%);
+        font-family: 'Rubik';
+        padding: 10px;
+    }
+
+    @mixin button-bg($bg) {
+        background: $bg;
+    }
+
+    .btn {
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 4px 2px;
+        padding: 12px 28px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    .button1 {
+        @include button-bg(hsl(231, 69%, 60%));
+
+    }
+
+    .button2 {
+        @include button-bg(#f1f1f1);
+        color: grey;
+    }
+
+
+
+
+}

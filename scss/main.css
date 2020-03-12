@@ -1,0 +1,113 @@
+/* Fira Sans */
+@import url("(https://fonts.google.com/specimen/Rubik)");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/** HEADER */
+/** NAVIGATION BAR */
+#logo {
+  float: left;
+  padding: 25px;
+  margin: 15px;
+}
+
+nav {
+  color: white;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 25px;
+  margin: 15px;
+  display: none;
+}
+
+nav ul li {
+  display: inline;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 17px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 14px;
+}
+
+nav ul li a:hover {
+  background-color: red;
+}
+
+.background {
+  background-color: #5368df;
+  width: 80%;
+  height: 200px;
+  z-index: -5;
+  position: absolute;
+  top: 38%;
+  right: 0%;
+  border-radius: 0 0 0 20%;
+}
+
+.container .imghero {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.container .imghero img {
+  width: 95%;
+}
+
+.container h1 {
+  text-align: center;
+  font-family: 'Rubik';
+  font-size: 22px;
+}
+
+.container p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #9194a1;
+  font-family: 'Rubik';
+  padding: 10px;
+}
+
+.container .btn {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 4px 2px;
+  padding: 12px 28px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.container .button {
+  text-align: center;
+}
+
+.container .button1 {
+  background: #5368df;
+}
+
+.container .button2 {
+  background: #f1f1f1;
+  color: grey;
+}
+/*# sourceMappingURL=main.css.map */
